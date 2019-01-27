@@ -17,7 +17,7 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 5px solid #a298a2;
+  border: 3px solid #550055;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
@@ -29,7 +29,7 @@ body {
   width: 100%;
   height: 100%;
   /* transform: translateY(-3px); */
-  /*  background-image: url(img/clock-face.svg);*/
+  background-image: url(img/clock-face.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -44,12 +44,18 @@ body {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0, 2.92, 0.58, 1);
 }
-.min-hand{
+
+.min-hand {
   background-color: #6b3f6b;
 }
-.hour-hand{
+
+.hour-hand {
   background-color: #7b6a7b;
+  width:40%;
+  left:10%;
 }
-.second-hand{
+
+.second-hand {
   background-color: #550055;
+  height:3px;
 }
